@@ -2,9 +2,12 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   #__next {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 2.5rem 1.25rem;
+    background-image: url("/mariopattern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
     box-sizing: border-box;
     height: 100%;
   }
@@ -17,7 +20,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #F0F0F5;
+    
+
     -webkit-font-smoothing: antialiased;
   }
 
